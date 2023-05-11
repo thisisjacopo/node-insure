@@ -32,8 +32,8 @@ The following endpoints are available:
 
 - `GET /clients/:id`: Get user data filtered by user ID.
 - `GET /clients/:name`: Get user data filtered by user name.
-- `GET /policies/:name`: Get the list of policies linked to a user name.
-- `GET /clients/:policyNumber`: Get the user linked to a policy number.
+- `GET /clients/:name/policies`: Get the list of policies linked to a user name.
+- `GET /policy/:policyNumber`: Get the user linked to a policy number.
 
 ### Example Usage
 
